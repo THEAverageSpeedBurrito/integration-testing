@@ -2,7 +2,7 @@
   "name": "integration-testing",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "knex": "knex",
     "test": "./node_modules/.bin/mocha -w"
@@ -29,6 +29,7 @@
     "dotenv": "^2.0.0",
     "express": "^4.14.0",
     "knex": "^0.12.6",
+    "nodemon": "^1.11.0",
     "pg": "^6.1.0"
   }
 }
